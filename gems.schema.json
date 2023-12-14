@@ -11,7 +11,7 @@
     },
     "colour": {
       "description": "the colour of the gem",
-      "type": "string"
+      "enum": ["R", "G", "B", "W"]
     },
     "description": {
       "description": "the description of the gem",
