@@ -1,0 +1,17 @@
+{
+  "name": "Detonate Mines",
+  "colour": "W",
+  "required_level": 8,
+  "max_level": 1,
+  "tags": ["mine", "spell"],
+  "description": "Detonates a Mine, starting a Detonation Sequence which will detonate other Mines around it.",
+  "cast_time": 0,
+  "cooldown": 0.2,
+  "effects": [
+    "First Mine Detonates Instantly",
+    "Mines get 10% more Detonation Speed for each prior Mine in Detonation Sequence"
+  ],
+  "quality_effects": [
+    "Mines have 1% increased Detonation Speed"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Summon Stone Golem of Safeguarding",
+  "transfigured": true,
+  "colour": "R",
+  "required_level": 34,
+  "tags": ["minion", "spell", "golem", "physical"],
+  "description": "Summons a Stone Golem that takes a portion of the melee damage you recieve from enemy hits from its life before yours. In addition to its melee attack, the Stone Golem uses a rolling charge and a powerful slam that can taunt enemies.",
+  "cost": { "min": 30, "max": 54 },
+  "cooldown": 15,
+  "cast_time": 1,
+  "effects": [
+    "Maximum 1 Summoned Golem",
+    "Minions have 50% less Maximum Life",
+    "Golems grant 10% of Melee Damage is taken from your Stone Golems' Life before you"
+  ],
+  "quality_effects": [
+    "1% increased Buff Effect"
+  ]
+}

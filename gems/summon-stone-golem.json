@@ -1,0 +1,17 @@
+{
+  "name": "Summon Stone Golem",
+  "colour": "R",
+  "required_level": 34,
+  "tags": ["minion", "spell", "golem", "physical"],
+  "description": "Summons a Stone Golem that grants you life regeneration. In addition to its melee attack, the Stone Golem uses a rolling charge and a powerful slam that can taunt enemies.",
+  "cost": { "min": 30, "max": 54 },
+  "cooldown": 6,
+  "cast_time": 1,
+  "effects": [
+    "Maximum 1 Summoned Golem",
+    "Golems grant (33-105) Life Regenerated per second"
+  ],
+  "quality_effects": [
+    "1% increased Buff Effect"
+  ]
+}

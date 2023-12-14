@@ -1,0 +1,11 @@
+{
+  "name": "Enlighten Support",
+  "colour": "B",
+  "tags": ["exceptional", "support"],
+  "max_level": 3,
+  "cost_and_reservation_multiplier": { "min": 1, "max": 0.92 },
+  "description": "Supports any skill gem. Once this gem reaches level 2 or above, will apply a cost & reservation multiplier to supported gems. Cannot support skills that don't come from gems.", 
+  "quality_effects": [
+    "This Gem gains 5% increased Experience"
+  ]
+}

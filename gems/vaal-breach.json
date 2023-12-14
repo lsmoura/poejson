@@ -1,0 +1,17 @@
+{
+  "name": "Vaal Breach",
+  "colour": "W",
+  "required_level": 10,
+  "souls": 100,
+  "soul_gain_prevention": 40,
+  "max_level": 1,
+  "tags": ["spell", "vaal"],
+  "description": "Creates a breach, making you vulnerable to its powerful inhabitants.",
+  "cast_time": 2.5,
+  "effects": [
+    "Monsters from the Breach do not grant Experience or drop Items"
+  ],
+  "quality_effects": [
+    "3% increased Cast Speed"
+  ]
+}

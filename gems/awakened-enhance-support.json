@@ -1,0 +1,15 @@
+{
+  "name": "Awakened Enhance Support",
+  "colour": "G",
+  "tags": ["exceptional", "support"],
+  "max_level": 4,
+  "cost_and_reservation_multiplier": { "min": 1.2, "max": 1.2 },
+  "required_level": 72,
+  "description": "Supports any skill gem. Once this gem reaches level 2 or above, will raise the quality of supported gems. Cannot support skills that don't come from gems.", 
+  "effects": [
+    "+(0-24)% to Quality of Supported Skill Gems"
+  ],
+  "quality_effects": [
+    "This Gem gains 5% increased Experience"
+  ]
+}

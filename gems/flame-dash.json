@@ -1,0 +1,23 @@
+{
+  "name": "Flame Dash",
+  "colour": "R",
+  "required_level": 10,
+  "tags": ["spell", "movement", "duration", "fire", "travel", "blink"],
+  "description": "Teleport to a location, damaging enemies and leaving a trail of burning ground. Shares a cooldown with other Blink skills.",
+  "cost": { "min": 8, "max": 23 },
+  "cast_time": 0.8,
+  "cooldown": 3.5,
+  "store_count": 3,
+  "critical_chance": 0.06,
+  "added_damage_effectiveness": 1.4,
+  "effects": [
+    "Deals (19.7-1738.6) Base Fire Damage per second",
+    "Base duration is 4.00 seconds",
+    "Deals (7-659) to (11-988) Fire Damage",
+    "Modifiers to Spell Damage apply to this Skill's Damage Over Time effect",
+    "(0-19)% increased Cooldown Recovery Rate"
+  ],
+  "quality_effects": [
+    "0.5% increased Cooldown Recovery Rate"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Wrath",
+  "colour": "G",
+  "required_level": 24,
+  "tags": ["aura", "spell", "aoe", "lightning"],
+  "radius": 36,
+  "description": "Casts an aura that adds lightning damage to the attacks of you and your allies, and makes your spells deal more lightning damage.",
+  "reservation": { "min": 0.5, "max": 0.5, "perc": true },
+  "cast_time": 0,
+  "cooldown": 1.2,
+  "effects": [
+    "+(0-1.9) metres to radius",
+    "You and nearby allies deal (2-16) to (37-248) additional Lightning Damage with Attacks",
+    "You and nearby allies deal (15-21)% more Spell Lightning Damage"
+  ],
+  "quality_effects": [
+    "2% increased Area of Effect"
+  ]
+}

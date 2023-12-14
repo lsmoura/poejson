@@ -1,0 +1,18 @@
+{
+  "name": "Precision",
+  "colour": "G",
+  "required_level": 10,
+  "tags": ["aura", "critical", "spell", "aoe"],
+  "description": "Casts an aura that grants accuracy and critical strike chance to you and your allies.",
+  "reservation": { "min": 22, "max": 186 },
+  "cast_time": 0,
+  "cooldown": 1.2,
+  "effects": [
+    "+(0-1.9) metres to radius",
+    "You and nearby allies gain (20-58)% increased Critical Strike Chance",
+    "You and nearby allies gain +(93-701) to Accuracy Rating"
+  ],
+  "quality_effects": [
+    "2% increased Area of Effect"
+  ]
+}

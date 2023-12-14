@@ -1,0 +1,17 @@
+{
+  "name": "Summon Stone Golem of Hordes",
+  "transfigured": true,
+  "colour": "R",
+  "required_level": 34,
+  "tags": ["minion", "spell", "golem", "physical"],
+  "description": "Summons a Stone Golem. In addition to its melee attack, the Stone Golem uses a rolling charge and a powerful slam that can taunt enemies.",
+  "cost": { "min": 30, "max": 54 },
+  "cooldown": 6,
+  "cast_time": 1,
+  "effects": [
+    "Maximum 3 Summoned Golems"
+  ],
+  "quality_effects": [
+    "Minions have 2% increased Cooldown Recovery Rate"
+  ]
+}

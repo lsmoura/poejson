@@ -1,0 +1,120 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://poejson.com/gems.schema.json",
+  "title": "Gems",
+  "description": "Current valid game gems",
+  "type": "object",
+  "properties": {
+    "name": {
+      "description": "the name of the gem",
+      "type": "string"
+    },
+    "colour": {
+      "description": "the colour of the gem",
+      "type": "string"
+    },
+    "description": {
+      "description": "the description of the gem",
+      "type": "string"
+    },
+    "tags": {
+      "description": "the gem's tags",
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "cost": {
+      "description": "cost range of the gem from minimum to maximum gem level (note that the gem level can be expanded above its maximum level). support gems do not have this property.",
+      "type": "object",
+      "properties": {
+        "min": {
+          "type": "number"
+        },
+        "max": {
+          "type": "number"
+        }
+      },
+      "required": ["min", "max"]
+    },
+    "transfigured": {
+      "type": "boolean"
+    },
+    "awakened": {
+      "type": "boolean"
+    },
+    "required_level": {
+      "description": "minimum character level to use the gem at level 1",
+      "type": "number"
+    },
+    "store_count": {
+      "type": "number"
+    },
+    "cast_time": {
+      "description": "seconds to cast the skill",
+      "type": "number"
+    },
+    "critical_chance": {
+      "description": "probability to deal critical damage",
+      "type": "number"
+    },
+    "cooldown": {
+      "type": "number"
+    },    
+    "added_damage_effectiveness": {
+      "type": "number"
+    },
+    "effects": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "uniqueItems": true      
+    },
+    "quality_effects": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "uniqueItems": true      
+    },
+    "max_level": {
+      "description": "Maximum level of this gem. If omitted, the maximum level is assumed to be the default: 20",
+      "type": "number"
+    },
+    "reservation": {
+      "description": "aura skills don't have a cost. they have reservation instead.",
+      "type": "object",
+      "properties": {
+        "min": {
+          "type": "number"
+        },
+        "max": {
+          "type": "number"
+        },
+        "perc": {
+          "description": "if true, the informed value is a percentage of the resource",
+          "type": "boolean"
+        }
+      },
+      "required": ["min", "max"]
+    },
+    "souls": {
+      "description": "number of souls needed to earn one charge of the spell",
+      "type": "number"
+    },
+    "soul_gain_prevention": {
+      "description": "number of seconds that the player won't be able to earn souls for this spell after it's cast",
+      "type": "number"
+    }
+  },
+  "required": [
+    "name",
+    "colour",
+    "description"
+  ]
+}

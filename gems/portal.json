@@ -1,0 +1,12 @@
+{
+  "name": "Portal",
+  "colour": "W",
+  "required_level": 10,
+  "max_level": 1,
+  "tags": ["spell"],
+  "description": "Creates a portal to the current area's town.",
+  "cast_time": 2.5,
+  "quality_effects": [
+    "3% increased Cast Speed"
+  ]
+}
